@@ -50,7 +50,7 @@ RSpec.describe GramsController, type: :controller do
     end
 
     it "should properly deal with validation errors" do
-      user = User.new(
+      user = User.create(
         email:                  'fakeuser@gmail.com',
         password:               'secretPassword',
         password_confirmation:  'secretPassword'
