@@ -16,7 +16,7 @@
     <br class='clear-fix' />
     <div class='comments'>
       <h3>Comments</h3>
-      <%= gram.comments.each do |comment| %>
+      <% gram.comments.each do |comment| %>
         <div class="comment">
           <span class='comment_handle'>
             <%= comment.user.email %>
